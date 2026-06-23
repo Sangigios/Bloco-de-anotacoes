@@ -1,5 +1,5 @@
 // Cole sua URL do Apps Script aqui
-    const URL_API = "https://script.google.com/macros/s/AKfycbxkCnMww6wrHJf0TOk_f90moUegB0YLP1DEB-RnpNUZCIgTWqWs6zc2W89JxD3l8WD0/exec";
+    const URL_API = "Coloque aqui a URL do seu Apps Script";
 
     let notas = [];
     const input = document.getElementById('notaInput');

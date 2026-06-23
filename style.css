@@ -12,3 +12,6 @@ body { font-family: sans-serif; background-color: #f4f4f9; padding: 20px; }
         .search-container { max-width: 600px; margin: 10px auto 20px auto; }
         #searchInput { width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 20px; background-color: #fff; outline: none; }
         #searchInput:focus { border-color: #28a745; box-shadow: 0 0 5px rgba(40, 167, 69, 0.2); } 
+        
+        /* Botão discreto para se você precisar trocar de planilha no futuro */
+        .config-btn { position: fixed; bottom: 15px; right: 15px; background: #6c757d; padding: 5px 10px; font-size: 12px; }

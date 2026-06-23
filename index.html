@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anotaçoes Diversas</title>
+    <link rel="stylesheet" href="style.css">    
+
+    <link rel="icon" type="image/png" href="notepad.png">
+    <link rel="apple-touch-icon" href="notepad.png">
+
+</head>
+<body>
+
+<header>
+    <h1>Anotações Diversas</h1>
+    <div class="input-container">
+        <input type="text" id="notaInput" placeholder="Escreva sua anotação...">
+        <button id="btnAcao" onclick="adicionarNota()">Adicionar</button>
+    </div>
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Pesquisar notas..." onkeyup="filtrarnotas()">
+    </div>
+</header>
+
+<main id="containernotas" class="notas-lista"></main>
+
+<script src="script.js"></script>
+</body>
+</html>
